@@ -274,7 +274,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "nrf-thing-example"
+name = "nrf-resonant-thing-example"
 version = "0.1.0"
 dependencies = [
  "cortex-m 0.7.3",
@@ -282,8 +282,7 @@ dependencies = [
  "defmt",
  "defmt-rtt",
  "nrf52840-hal",
- "panic-probe",
- "rtt-target 0.3.1",
+ "rtt-target",
 ]
 
 [[package]]
@@ -321,17 +320,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "panic-probe"
-version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "45b5c81d6b51f415b3ba40b30dc598dfffb29ad4cf4a8815989754850ce6c0dc"
-dependencies = [
- "cortex-m 0.6.7",
- "cortex-m-rt 0.6.14",
- "rtt-target 0.2.2",
-]
-
-[[package]]
 name = "proc-macro2"
 version = "1.0.28"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -360,15 +348,6 @@ name = "rand_core"
 version = "0.6.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d34f1408f55294453790c48b2f1ebbb1c5b4b7563eb1f418bcfcfdbb06ebb4e7"
-
-[[package]]
-name = "rtt-target"
-version = "0.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0869b4c5b6a6d8c5583fc473f9eb3423a170f77626b8c8a7fb18eddcda5770e2"
-dependencies = [
- "ufmt-write",
-]
 
 [[package]]
 name = "rtt-target"
