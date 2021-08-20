@@ -18,17 +18,3 @@ debug = 1 # default is `true`; not needed if not already overridden
 
 [profile.release]
 debug = 1 # default is `false`; using `true` is also OK as symbols reside on the host, not the target
-
-# [features]
-# # set logging levels here
-# default = [
-#   "defmt-default",
-# ]
-
-# # do NOT modify these features
-# defmt-default = []
-# defmt-trace = []
-# defmt-debug = []
-# defmt-info = []
-# defmt-warn = []
-# defmt-error = []
